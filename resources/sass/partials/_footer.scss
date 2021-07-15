@@ -1,0 +1,32 @@
+footer{
+    
+    width: 100%;
+    
+
+    #footer-top{
+        .size-page{
+            display: flex;
+            padding: 15px;
+            .footer-column{
+                margin-left: 15px;
+                h3{
+                    margin-top: 15px;
+                }
+                ul{
+                    list-style: none;
+                }
+            }
+        }
+    }
+    #footer-bottom{
+        
+        background-color: gray;
+        align-items: center;
+        .size-page{
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+}

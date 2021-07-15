@@ -31,7 +31,7 @@ header #header-center ul li {
 }
 
 header #header-bottom {
-  height: 300px;
+  height: 270px;
 }
 
 header #header-bottom img {
@@ -41,6 +41,38 @@ header #header-bottom img {
      object-fit: cover;
   -o-object-position: top;
      object-position: top;
+}
+
+footer {
+  width: 100%;
+}
+
+footer #footer-top .size-page {
+  display: flex;
+  padding: 15px;
+}
+
+footer #footer-top .size-page .footer-column {
+  margin-left: 15px;
+}
+
+footer #footer-top .size-page .footer-column h3 {
+  margin-top: 15px;
+}
+
+footer #footer-top .size-page .footer-column ul {
+  list-style: none;
+}
+
+footer #footer-bottom {
+  background-color: gray;
+  align-items: center;
+}
+
+footer #footer-bottom .size-page {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 * {
