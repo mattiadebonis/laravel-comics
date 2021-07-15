@@ -1,0 +1,56 @@
+header {
+  width: 100%;
+}
+
+header #header-top {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  background-color: blue;
+  color: white;
+  text-transform: uppercase;
+}
+
+header #header-top div * {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header #header-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+header #header-center ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+header #header-bottom {
+  height: 300px;
+}
+
+header #header-bottom img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.size-page {
+  width: 80%;
+  margin: 0 auto;
+}
+
