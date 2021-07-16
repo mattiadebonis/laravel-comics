@@ -58,7 +58,7 @@
         <ul>
             @foreach($menu as $item)
             <li>
-                <a href="">{{$item["text"]}}</a>
+                <a href="{{$item['link']}}">{{$item["text"]}}</a>
             </li>
             @endforeach
         </ul>

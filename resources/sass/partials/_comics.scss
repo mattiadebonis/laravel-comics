@@ -1,0 +1,38 @@
+#comics-container{
+    padding: 15px;
+    ul{
+        display:flex;
+        flex-wrap: wrap;
+        li{
+            width: calc(100%/6);
+            display: inline-block;
+            list-style: none;
+            img{
+                width: 100px;
+                height: 100px;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+#banner-shop-container{
+    background-color: blue;
+    ul{
+        display:flex;
+        flex-wrap: wrap;
+        li{
+            width: calc(100%/6);
+            display: flex;
+            align-items: center;
+            list-style: none;
+            align-items: center;
+            img{
+                width: 50px;
+                height: 100px;
+                object-fit: contain;
+            }
+        }
+    }
+    
+}

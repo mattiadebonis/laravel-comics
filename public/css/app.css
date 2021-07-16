@@ -75,6 +75,52 @@ footer #footer-bottom .size-page {
   justify-content: space-between;
 }
 
+#comics-container {
+  padding: 15px;
+}
+
+#comics-container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#comics-container ul li {
+  width: calc(100%/6);
+  display: inline-block;
+  list-style: none;
+}
+
+#comics-container ul li img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#banner-shop-container {
+  background-color: blue;
+}
+
+#banner-shop-container ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#banner-shop-container ul li {
+  width: calc(100%/6);
+  display: flex;
+  align-items: center;
+  list-style: none;
+  align-items: center;
+}
+
+#banner-shop-container ul li img {
+  width: 50px;
+  height: 100px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 * {
   margin: 0;
   padding: 0;
